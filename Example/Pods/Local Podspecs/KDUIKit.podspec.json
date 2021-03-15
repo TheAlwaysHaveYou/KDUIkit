@@ -2,21 +2,22 @@
   "name": "KDUIKit",
   "version": "0.1.0",
   "summary": "A short description of KDUIKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/范魁东/KDUIKit",
+  "description": "A Description",
+  "homepage": "https://github.com/TheAlwaysHaveYou/KDUIKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "范魁东": "yiyangyouni@126.com"
+    "TheAlwaysHaveYou": "yiyangyouni@126.com"
   },
   "source": {
-    "git": "https://github.com/范魁东/KDUIKit.git",
+    "git": "https://github.com/TheAlwaysHaveYou/KDUIKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
+  "requires_arc": true,
   "source_files": "KDUIKit/Classes/**/*"
 }

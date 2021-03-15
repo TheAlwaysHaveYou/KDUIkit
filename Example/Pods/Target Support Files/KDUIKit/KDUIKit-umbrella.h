@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "KDBaseView.h"
 
 FOUNDATION_EXPORT double KDUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char KDUIKitVersionString[];
