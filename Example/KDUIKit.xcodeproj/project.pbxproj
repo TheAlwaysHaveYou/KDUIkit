@@ -61,12 +61,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9326A74672C57D48C9564AFB /* Pods_KDUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95060D63974F2247619065BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		95060D63974F2247619065BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9601985B42F775F9D76593EB /* Pods-KDUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KDUIKit_Tests/Pods-KDUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A31FE49679EF36FB6F461AB9 /* Pods_KDUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE97481A6C0C6652B2ACDDAC /* Pods-KDUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-KDUIKit_Example/Pods-KDUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DF5D343C627E1BEF1690D52A /* KDUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KDUIKit.podspec; path = ../KDUIKit.podspec; sourceTree = "<group>"; };
-		DFC1E55EB597AC4E229EC423 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DF5D343C627E1BEF1690D52A /* KDUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KDUIKit.podspec; path = ../KDUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DFC1E55EB597AC4E229EC423 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				9601985B42F775F9D76593EB /* Pods-KDUIKit_Tests.debug.xcconfig */,
 				1A3942D7F1003306B33B3ECD /* Pods-KDUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
