@@ -22,7 +22,7 @@ pod 'KDUIKit'
 
 ## Author
 
-范魁东, yiyangyouni@126.com
+TheAlwaysHaveYou, yiyangyouni@126.com
 
 ## License
 
